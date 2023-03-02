@@ -1,0 +1,54 @@
+body{
+     padding-top:70px;
+    }
+.jumbotron
+{
+    color:#2c3e50;
+    background: #ecf0f1;
+}
+.navbar
+{
+    background:#2c3e50;
+}
+
+img 
+{
+    width: 100%;
+}
+.navbar-inverse .navbar-nav>li>a,.navbar-inverse .navbar-brand
+{
+    color:white;
+}
+
+.gallery-item {
+    padding: 80px 0px;
+    max-width: 400px;
+}
+
+
+.gallery img {
+    background: #000;
+    padding: 5px;
+    width: 100%;
+    box-shadow: 20px 10px 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+#gallery-popup .modal-img {
+    width: 100%;
+
+}
+section {
+    height: 10vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+    background-image: linear-gradient(darkgrey, white,grey);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
